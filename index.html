@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A fictional R200 demo note generator built with HTML, CSS and JavaScript.">
+  <title>R200 Demo Note Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="flag-glow"></div>
+    <div class="brand">
+      <div class="crest">✦</div>
+      <div>
+        <h1><span>R200</span> Demo Note Generator</h1>
+        <p>A fictional South African banknote-style design for educational and development purposes.</p>
+      </div>
+    </div>
+    <div class="warning">DEMO — NOT LEGAL TENDER</div>
+  </header>
+
+  <main>
+    <section class="note-wrap">
+      <div id="note" class="note">
+        <div class="security-pattern"></div>
+        <div class="guilloche g1"></div>
+        <div class="guilloche g2"></div>
+
+        <div class="note-top">
+          <div class="flower">✿</div>
+          <div>
+            <div class="country">SOUTH AFRICA</div>
+            <div class="issuer">DEMO RESERVE BANK</div>
+          </div>
+          <div class="big-value top-value">R200</div>
+        </div>
+
+        <div class="landscape">
+          <div class="mountain m1"></div>
+          <div class="mountain m2"></div>
+          <div class="sun"></div>
+        </div>
+
+        <div class="animal" aria-label="fictional animal illustration">
+          <div class="horn horn1"></div>
+          <div class="horn horn2"></div>
+          <div class="head"></div>
+          <div class="ear e1"></div>
+          <div class="ear e2"></div>
+          <div class="eye"></div>
+          <div class="neck"></div>
+        </div>
+
+        <div class="holo">
+          <span>R200</span>
+          <span>✿</span>
+          <span>R200</span>
+          <span>✦</span>
+        </div>
+
+        <div class="qr-box" id="qr"></div>
+
+        <div class="serial serial-left" id="serial1">DEMO-000000</div>
+        <div class="serial serial-right" id="serial2">DEMO-000000</div>
+
+        <div class="big-value bottom-value">R200</div>
+        <div class="legal">DEMO — NOT LEGAL TENDER</div>
+      </div>
+    </section>
+
+    <section class="controls">
+      <div class="card">
+        <span class="icon">⤨</span>
+        <div>
+          <h3>Random Serial Number</h3>
+          <strong id="serialDisplay">DEMO-000000</strong>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="icon">◈</span>
+        <div>
+          <h3>Demo Security Features</h3>
+          <p>Holographic strip · Guilloche pattern · Watermark effect</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="icon">✦</span>
+        <div>
+          <h3>Dynamic Design</h3>
+          <p>Animated patterns · Randomized serial · Responsive layout</p>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="generate">↻ Generate New Note</button>
+        <button id="download">↓ Download PNG</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>🇿🇦 South Africa</span>
+    <span>•</span>
+    <span>R200 Demo Note Generator</span>
+    <span>•</span>
+    <span>Built with HTML, CSS &amp; JavaScript</span>
+    <span class="tagline">Code. Create. Innovate.</span>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# 🇿🇦 R200 Demo Note Generator
+# R200 Demo Note Generator
 
 A polished fictional R200 banknote-style generator built with **HTML, CSS and JavaScript**.
 
